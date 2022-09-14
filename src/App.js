@@ -1,7 +1,6 @@
 import "./App.css";
 import React, { useState } from "react";
-import BooksList from "./BooksList.js";
-import FetchBibleData from "./FetchBibleData";
+import BooksList from "./Components/Books/BooksList";
 import useApi from "./Hooks/useApi";
 
 function App() {
